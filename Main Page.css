@@ -236,7 +236,7 @@ header {
     }
 
     .redcircle {
-        z-index: -8;
+        z-index: -6;
         position: fixed;
         margin-left: 55%;
         margin-top: 18vh;
@@ -249,4 +249,5 @@ header {
 
     .Mainimg {
         margin-left: 40px;
+        z-index: -6;
     }
