@@ -6,17 +6,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./Main Page.css">
 </head>
 
 <style>
-    #firstpage {}
+    .blueline {
+        position: fixed;
+        margin-top: 63vh;
+        width: 100%;
+        height: 26vh;
+        background-color: #8d9acd;
+    }
 
-    .firsttextwrap {
-        border: black solid 1px;
+    .whiteline {
+        position: fixed;
+        margin-top: 67vh;
+        width: 100%;
+        height: 2vh;
+        background-color: white;
+    }
+
+    .blackline {
+        position: fixed;
+        margin-top: 70.5vh;
+        width: 100%;
+        height: 0.3vh;
+        background-color: black;
+    }
+
+    .yellowline {
+        z-index: -10;
+        position: fixed;
+        margin-left: 70%;
+        width: 17%;
+        height: 100vh;
+        background-color: #f8e88b9a;
+    }
+
+    .redline {
+        z-index: -11;
+        position: fixed;
+        margin-left: 83%;
+        width: 1.5%;
+        height: 100vh;
+        background-color: #f69069;
     }
 </style>
 
+
 <body>
+    <header>
+        <div class="inner-container">
+            <div class="header-btns_1"><a href="../Main Page/Main page.html">Main</a></div>
+            <div class="header-btns_1"><a href="About myself">About myself</a></div>
+            <div class="header-btns_2"><a href="My project">My project</a></div>
+            <div class="header-btns_2"><a href="My personal work">My personal work</a></div>
+            <div class="header-btns_3"><a href="Contact">Contact</a></div>
+        </div>
+    </header>
+
+    <div class="background">
+        <div class="blueline"></div>
+        <div class="whiteline"></div>
+        <div class="blackline"></div>
+        <div class="yellowline"></div>
+        <div class="redline"></div>
+    </div>
+
+
     <!--1번째 페이지  -->
     <div id="firstpage">
         <!-- 왼쪽 텍스트 전체 div -->
@@ -30,25 +87,28 @@
                         <div class="Shim_text">심</div>
                         <div class="Yu_text">연</div>
                         <div class="Na_text">아</div>
+
+                        <!-- 아래 2줄 묶음 div -->
+                        <div class="secondtextwrap">
+                            <div class="list">
+                                <p>이름</p>
+                                <p>생년월일</p>
+                                <p>이메일</p>
+                            </div>
+                            <div class="detailinfo">
+                                <p>심연아</p>
+                                <p>03.11.14</p>
+                                <p>yunashim1004@naver.com</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="introduce">입니다.</div>
                 </div>
             </div>
-            <!-- 아래 2줄 묶음 div -->
-            <div class="secondtextwrap">
-                <ul>
-                    <li>이름</li>
-                    <li>생년월일</li>
-                    <li>이메일</li>
-                </ul>
-                <ol>
-                    <li>심연아</li>
-                    <li>03.11.14</li>
-                    <li>yunashim1004@naver.com</li>
-                </ol>
-            </div>
         </div>
     </div>
+
+
 </body>
 
 </html>

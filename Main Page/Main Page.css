@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'NanumBarunpen';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    background-color: white;
+    border: black 0.5px solid;
+    z-index: 9;
+}
+
+.inner-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    text-align: center;
+    margin: 20px 3px 20px auto;
+    width: 800px;
+    font-family: 'NanumBarunpen';
+    font-weight: 700;
+
+}
+
+.header-btns_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 160px;
+    height: 3vh;
+    text-align: center;
+    border-right: black solid 1px;
+
+}
+
+.header-btns_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 160px;
+    height: 3vh;
+    text-align: center;
+    border-right: black solid 1px;
+}
+
+.header-btns_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 160px;
+    height: 3vh;
+    text-align: center;
+}
+
+.header-btns_1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-btns_2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-btns_3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-btns_1 :hover {
+    background-color: #f69169f5;
+}
+
+.header-btns_2 :hover {
+    background-color: #f8e88bf5;
+}
+
+.header-btns_3 :hover {
+    background-color: #8d9acdf5;
+}
+
+/* header 끝 -----------------------------------------------------/본문 */
+
+    #firstpage {
+        position: fixed;
+        width: 800px;
+        height: 50vh;
+        margin-top: 20vh;
+        margin-left: 7%;
+        align-items: center;
+        justify-content: flex-start;
+        font-family: 'NanumBarunpen';
+    }
+
+    .firsttextwrap {
+        display: flex;
+        flex-direction: column;
+        /*세로 정렬*/
+        align-items: flex-start;
+
+    }
+
+    .firsttexttitle {
+        display: flex;
+        font-size: 30px;
+        margin-left: 5px;
+    }
+
+    .firsttexttitlename {
+        display: flex;
+        flex-direction: row;
+        font-size: 85px;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+    .Name {
+        display: flex;
+        margin-left: 25px;
+        margin-right: 3px;
+        position: relative;
+    }
+    
+    .Name:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    .Name:hover > .secondtextwrap {
+        display: flex;
+    
+    }
+
+    .Shim_text {
+        display: flex;
+        margin: 0px 2px 0px 2px;
+        color: #f8e88b;
+    }
+
+    .Yu_text {
+        display: flex;
+        margin: 0px 2px 0px 2px;
+        color: #8d9acd;
+    }
+
+    .Na_text {
+        display: flex;
+        margin: 0px 2px 0px 2px;
+        color: #f69069;
+    }
+
+    .secondtextwrap {
+        position: absolute;
+        display: none;
+        width: 300px;
+        border: black double 4px;
+        margin-top: 17vh;
+        margin-left: 0;
+        font-size: 16px;
+        color: black;
+        background-color: rgba(255, 255, 255, 0.322);
+        text-shadow: none;
+    }
+
+    .list {
+        margin-left: 10px;
+    }
+
+    .detailinfo {
+        margin-left: 30px;
+    }

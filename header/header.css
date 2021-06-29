@@ -1,9 +1,17 @@
+@font-face {
+    font-family: 'NanumBarunpen';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
 }
 
 header {
     position: fixed;
+    display: flex;
     width: 100%;
     height: 8vh;
     background-color: white;
@@ -12,17 +20,74 @@ header {
 }
 
 .inner-container {
-    width: 100%;
-    margin: 0 auto;
+    display: flex;
     position: relative;
+    align-items: center;
+    text-align: center;
+    margin: 20px 3px 20px auto;
+    width: 800px;
+    font-family: 'NanumBarunpen';
+    font-weight: 700;
+
 }
 
-.logo {
-    font-size: 25px;
-    font-weight: bold;
-    color: rgb(83, 83, 83);
-    text-shadow: 2px 2px 2px grey;
-    margin-right: 330px;
-    margin-left: 50px;
+.header-btns_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 160px;
+    height: 3vh;
+    text-align: center;
+    border-right: black solid 1px;
+
+}
+
+.header-btns_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 160px;
+    height: 3vh;
+    text-align: center;
+    border-right: black solid 1px;
+}
+
+.header-btns_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 160px;
+    height: 3vh;
+    text-align: center;
+}
+
+.header-btns_1 a {
     text-decoration: none;
+    color: black;
+}
+
+.header-btns_2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-btns_3 a {
+    text-decoration: none;
+    color: black;
+}
+
+/* a:hover {
+    transform: scale(1.05);
+} */
+
+.header-btns_1 :hover {
+    background-color: #f69169f5;
+}
+
+.header-btns_2 :hover {
+    background-color: #f8e88bf5;
+}
+
+.header-btns_3 :hover {
+    background-color: #8d9acdf5;
 }
