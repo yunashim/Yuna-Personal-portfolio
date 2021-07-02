@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'NanumBarunpen';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.WhoamI {
+    width: 100%;
+    height: 200vh;
+    background-color: #f69069;
+    display: flex;
+}
+
+.whitecircle {
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.377);
+}
+
+.whitecircleborder {
+    z-index: 0;
+    position: relative;
+    left: -350px;
+    top: -150px;
+    width: 1030px;
+    height: 1030px;
+    border: white solid 3px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.text {
+    position: absolute;
+    font-family:'NanumBarunpen';
+    margin: 0;
+    color: white;
+    width: 600px;
+    height: 200px;
+    top: 37vh;
+    right: 80px;
+}
+
+.titletext {
+    font-size: 68px;
+    font-weight: 300;
+    line-height: 80px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;;
+}
+
+.subtext {
+    padding-top: 40px;
+    width: 400px;
+    height: 300px;
+    font-weight: 100;
+    font-size: 20px;
+    color: black;
+}
+
+.titletext span {
+    color:#f8e88b
+}
+
+.Mydream {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.WhatIlike {
+    width: 100%;
+    height: 100vh;
+    background-color: #f8e88b; 
+}
+
+.ThingsIcando {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}

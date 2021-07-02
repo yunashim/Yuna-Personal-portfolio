@@ -1,0 +1,258 @@
+    body,section{
+        padding: 0;
+        margin: 0;
+    }
+
+    @font-face {
+        font-family: 'NanumBarunpen';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumBarunpen.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    #section1 {
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: -10;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'NanumBarunpen';
+    }
+    
+    #title {
+        font-family: 'NanumBarunpen';
+        font-size: 100px;
+        font-weight: 400;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        padding : 0px 40px 20px 40px;
+        border: 5px double #8d9acd ;
+        color: #8d9acd;
+        background-color: #8d9acd88;
+    }
+
+    .white_Box {
+        height: 100vh;
+        width: 1005;
+    }
+    
+    #section2 {
+        background: linear-gradient(#8d9acd,#edf1ff,#7487d1) ;
+        width: 100%;
+        height: 300vh;
+        display: flex;
+        position: relative;
+        padding: 0;
+        margin: 0;
+    }
+
+    .textbox {
+        width: 700px;
+        height: 265px;
+        text-align: right;
+        font-family: 'NanumBarunpen';
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    .textbox2 {
+        width: 700px;
+        height: 265px; 
+        font-family: 'NanumBarunpen';
+        font-size: 18px;
+        font-weight: 100;
+    }
+
+    .text {
+        padding: 30px;
+        align-items: center;
+    }
+
+    .textinnertitle {
+        font-family: 'NanumBarunpen';
+        font-size: 35px;
+        font-weight: 400;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        color: #8d9acd;
+    }
+    
+    
+    .slider1 {
+        width: 400px;
+        height: 265px;
+        background-color: yellow;
+        overflow: hidden;
+    }
+/* 
+    .slider1 figure{
+        position: relative; 
+        width: 400px;
+        height: 265px;
+         margin: 0;
+        left: 0;
+        animation: 5s slider infinite;
+     }
+
+     .slider1 figure img{
+        width: 100%;
+        float: right;
+    } 
+    .slider1{
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 10;
+        width: 100%;
+        margin-top: 8.9vh;
+        overflow: hidden;
+    }
+
+    .slider1 figure{
+        position: relative;
+        width: px;
+        margin: 0;
+        left: 0;
+        animation: 20s slider infinite;
+    }
+
+    .slider figure img{
+        width: 20%;
+        float: left;
+    }
+    
+    .photo_c1 {
+        height: 265px;
+    }
+    
+    .photo_c2 {
+        height: 265px;
+    }
+
+    .photo_c3 {
+        height: 265px;
+    }
+
+    .photo_c4 {
+        height: 265px;
+    }
+
+    .photo_c5 {
+        height: 265px;
+    }
+
+    /* .photo_c6 {
+        height: 265px;
+    } */
+
+    /* @keyframes slider{
+        0%{
+            left: 0;
+        }
+        20% {
+            left: 0;
+        }
+        25%{
+            left: -100%;
+        }
+        45%{
+            left: -100%;
+        }
+        50%{
+            left: -200%;
+        }
+        70%{
+            left: -200%;
+        }
+        75%{
+            left: -300%;
+        }
+        95%{
+            left: -300%;
+        }
+        100%{
+            left: -400%;
+        }
+    } */ 
+        
+    
+    .slider2 {
+        width: 400px;
+        height: 265px;
+        background-color: yellow;
+    }
+
+    .slider3 {
+        width: 400px;
+        height: 265px;
+        background-color: yellow;
+    }
+
+    .slider4 {
+        width: 400px;
+        height: 265px;
+        background-color: yellow;
+    }
+
+    .slider5 {
+        width: 400px;
+        height: 265px;
+        background-color: yellow;
+    }
+
+
+    .craft {
+        display: flex;
+        position:absolute;
+        width: 1100px;
+        height: 265px;
+        margin: 300px 100px 0px 0px;
+        border: black 5px double;
+        background-color: rgba(255, 255, 255, 0.315);
+    }
+
+    .ballet {
+        display: flex;
+        position: absolute;
+        right: 0;
+        top: 43rem;
+        width: 1100px;
+        height: 265px;
+        border: black 5px double;
+        background-color: rgba(255, 255, 255, 0.315);
+    }
+    
+    .book {
+        display: flex;
+        position:absolute;
+        width: 1100px;
+        height: 265px;
+        left: 0;
+        top: 68rem;
+        border: black 5px double;
+        background-color: rgba(255, 255, 255, 0.315);
+    }
+
+    .photo {
+        display: flex;
+        position: absolute;
+        right: 0;
+        top: 93rem;
+        width: 1100px;
+        height: 265px;
+        border: black 5px double;
+        background-color: rgba(255, 255, 255, 0.315);
+    }
+
+    .ecosystem {
+        display: flex;
+        position:absolute;
+        width: 1100px;
+        height: 265px;
+        left: 0;
+        top: 118rem;
+        border: black 5px double;
+        background-color: rgba(255, 255, 255, 0.315);
+    }
+
+ 
